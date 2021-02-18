@@ -1,4 +1,4 @@
-package hu.terray.oop_principles.student;
+package hu.terray.oop_principles.codecooler;
 
 public class GutHubAccount {
     private String imageUrl;

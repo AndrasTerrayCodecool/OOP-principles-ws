@@ -1,15 +1,7 @@
-package hu.terray.oop_principles.student;
+package hu.terray.oop_principles.codecooler;
 
-public class Student {
-    private String name;
-    private int age;
+public class Student extends Codecooler {
     private GutHubAccount gutHubAccount;
-
-    public void setAge(int age) {
-        if(age >= 0 && age < 120) {
-            this.age = age;
-        }
-    }
 
     @Override
     public String toString() {
