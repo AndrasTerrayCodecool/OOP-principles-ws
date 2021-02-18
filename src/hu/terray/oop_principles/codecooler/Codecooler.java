@@ -10,6 +10,20 @@ public class Codecooler {
         }
     }
 
+    public void setAge(double age) {
+        if(age >= 18 && age < 120) {
+            this.age = (int)age;
+        }
+    }
+
+
+    // Overloading
+    public void setAge(String name, int age) {
+        if(name.equals(this.name)) {
+            this.setAge(age);
+        }
+    }
+
     public String getName() {
         return name;
     }

@@ -11,9 +11,10 @@ public class Main {
 
     // Encapsulation
     // Inheritance
+    // Polymorphism - overloading; overriding
     public static void main(String[] args) {
         Student student = new Student();
-        student.setAge(-6);
+        student.setAge(-6.0);
         System.out.println(student);
 
         Mentor mentor = new Mentor();
