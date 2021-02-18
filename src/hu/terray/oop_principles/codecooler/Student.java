@@ -11,4 +11,8 @@ public class Student extends Codecooler {
                 ", gutHubAccount=" + gutHubAccount +
                 '}';
     }
+
+    public void goToPa() {
+
+    }
 }

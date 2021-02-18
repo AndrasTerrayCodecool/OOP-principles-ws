@@ -12,6 +12,8 @@ public class Main {
     // Encapsulation
     // Inheritance
     // Polymorphism - overloading; overriding
+    // Abstraction
+
     public static void main(String[] args) {
         Student student = new Student();
         student.setAge(-6.0);
@@ -30,8 +32,8 @@ public class Main {
             System.out.println(codecooler.getName());
         }
 
-
-
+        Codecooler c = student;
+        student.goToPa();
 
     }
 }
