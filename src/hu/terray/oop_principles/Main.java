@@ -12,7 +12,7 @@ public class Main {
     // Encapsulation
     // Inheritance
     // Polymorphism - overloading; overriding
-    // Abstraction
+    // Abstraction - Interface of the method/class/etc
 
     public static void main(String[] args) {
         Student student = new Student();
