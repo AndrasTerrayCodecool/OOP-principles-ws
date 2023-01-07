@@ -24,7 +24,6 @@ public class Main {
         System.out.println(mentor);
 
         Set<Codecooler> codecoolers = new HashSet<>();
-        System.out.println(student.equals(mentor));
         codecoolers.add(mentor);
         codecoolers.add(student);
 
@@ -32,7 +31,6 @@ public class Main {
             System.out.println(codecooler.getName());
         }
 
-        Codecooler c = student;
         student.goToPa();
 
     }
